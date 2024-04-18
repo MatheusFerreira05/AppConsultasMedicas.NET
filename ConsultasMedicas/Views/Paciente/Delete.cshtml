@@ -1,0 +1,25 @@
+@model ConsultasMedicas.Models.Paciente
+
+<h1>Excluir Paciente</h1>
+
+<h3>Você tem certeza que deseja excluir este paciente?</h3>
+<div>
+    <h4>Detalhes do Paciente:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nome:</dt>
+        <dd class="col-sm-10">@Model.Nome</dd>
+        <dt class="col-sm-2">Data de Nascimento:</dt>
+        <dd class="col-sm-10">@Model.DataNascimento.ToShortDateString()</dd>
+        <dt class="col-sm-2">Gênero:</dt>
+        <dd class="col-sm-10">@Model.Genero</dd>
+        <dt class="col-sm-2">Histórico Médico:</dt>
+        <dd class="col-sm-10">@Model.HistoricoMedico</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>
