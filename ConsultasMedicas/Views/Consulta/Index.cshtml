@@ -1,0 +1,35 @@
+@model List<ConsultasMedicas.Models.Consulta>
+
+<h1>Lista de Consultas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Médico</th>
+            <th>Paciente</th>
+            <th>Motivo</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var consulta in Model)
+        {
+            <tr>
+                <td>@consulta.Data.ToShortDateString()</td>
+                <td>@consulta.Hora.ToString()</td>
+                <td>@consulta.Medico.Nome</td>
+                <td>@consulta.Paciente.Nome</td>
+                <td>@consulta.Motivo</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@consulta.Id">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@consulta.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@consulta.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Agendar Nova Consulta</a>

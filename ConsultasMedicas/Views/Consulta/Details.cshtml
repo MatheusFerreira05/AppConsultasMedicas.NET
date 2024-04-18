@@ -1,0 +1,28 @@
+@model ConsultasMedicas.Models.Consulta
+
+<h1>Detalhes da Consulta</h1>
+
+<table class="table">
+    <tr>
+        <th>Data:</th>
+        <td>@Model.Data.ToShortDateString()</td>
+    </tr>
+    <tr>
+        <th>Hora:</th>
+        <td>@Model.Hora.ToString()</td>
+    </tr>
+    <tr>
+        <th>Médico:</th>
+        <td>@Model.Medico.Nome</td>
+    </tr>
+    <tr>
+        <th>Paciente:</th>
+        <td>@Model.Paciente.Nome</td>
+    </tr>
+    <tr>
+        <th>Motivo:</th>
+        <td>@Model.Motivo</td>
+    </tr>
+</table>
+
+<a asp-action="Index">Voltar para a lista</a>

@@ -1,0 +1,31 @@
+@model List<ConsultasMedicas.Models.Medico>
+
+<h1>Lista de Médicos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Especialidade</th>
+            <th>Horário de Trabalho</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var medico in Model)
+        {
+            <tr>
+                <td>@medico.Nome</td>
+                <td>@medico.Especialidade</td>
+                <td>@medico.HorarioTrabalho</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@medico.Id">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@medico.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@medico.Id">Excluir</a> |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Adicionar Novo Médico</a>

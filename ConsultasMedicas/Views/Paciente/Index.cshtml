@@ -1,0 +1,31 @@
+@model List<ConsultasMedicas.Models.Paciente>
+
+<h1>Lista de Pacientes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Data de Nascimento</th>
+            <th>Gênero</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var paciente in Model)
+        {
+            <tr>
+                <td>@paciente.Nome</td>
+                <td>@paciente.DataNascimento.ToShortDateString()</td>
+                <td>@paciente.Genero</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@paciente.Id">Detalhes</a> |
+                    <a asp-action="Edit" asp-route-id="@paciente.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@paciente.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create">Adicionar Novo Paciente</a>
