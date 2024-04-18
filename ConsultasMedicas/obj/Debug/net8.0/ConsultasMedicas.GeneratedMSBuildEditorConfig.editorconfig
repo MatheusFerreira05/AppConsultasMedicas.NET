@@ -18,12 +18,92 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mathe\OneDrive\Estudos\.Net\AppConsultasMedicas.NET\ConsultasMedicas
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Consulta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Consulta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Consulta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Consulta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Consulta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Especialidade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Especialidade/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Especialidade/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Especialidade/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Especialidade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Medico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Medico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Medico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Medico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Medico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Paciente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Paciente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Paciente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Paciente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Paciente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFjaWVudGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mathe/OneDrive/Estudos/.Net/AppConsultasMedicas.NET/ConsultasMedicas/Views/Shared/Error.cshtml]

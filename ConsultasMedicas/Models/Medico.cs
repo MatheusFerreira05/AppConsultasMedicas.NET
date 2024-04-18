@@ -1,7 +1,19 @@
-public class Medico
+using System;
+
+namespace ConsultasMedicas.Models
 {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Especialidade { get; set; }
-    public string HorarioTrabalho { get; set; }
+    public class Medico
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public string Especialidade { get; set; } = string.Empty;
+        public string HorarioTrabalho { get; set; } = string.Empty;
+
+        public Medico()
+        {
+            Nome = string.Empty;
+            Especialidade = string.Empty;
+            HorarioTrabalho = string.Empty;
+        }
+    }
 }

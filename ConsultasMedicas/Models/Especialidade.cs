@@ -1,6 +1,18 @@
-public class Especialidade
+using System;
+
+namespace ConsultasMedicas.Models
 {
-    public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Descricao { get; set; }
+    public class Especialidade
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;
+
+        public Especialidade()
+        {
+            // Inicializa as propriedades com valores padrão para evitar valores nulos
+            Nome = string.Empty;
+            Descricao = string.Empty;
+        }
+    }
 }

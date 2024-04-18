@@ -2,7 +2,49 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            padding-top: 50px;
+            text-align: center;
+        }
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4">Bem-vindo(a)!</h1>
+        <p>O que você quer fazer<a href="#"> Agora?</a></p>
+        <div>
+            <a href="/Consulta/Index" class="btn btn-primary">Consultas</a>
+            <a href="/Especialidade/Index" class="btn btn-primary">Especialidades</a>
+            <a href="/Medico/Index" class="btn btn-primary">Médicos</a>
+            <a href="/Paciente/Index" class="btn btn-primary">Pacientes</a>
+        </div>
+    </div>
+</body>
+</html>
