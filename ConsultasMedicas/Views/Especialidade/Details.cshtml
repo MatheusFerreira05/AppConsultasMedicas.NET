@@ -1,0 +1,16 @@
+@model ConsultasMedicas.Models.Especialidade
+
+<h1>Detalhes da Especialidade</h1>
+
+<table class="table">
+    <tr>
+        <th>Nome:</th>
+        <td>@Model.Nome</td>
+    </tr>
+    <tr>
+        <th>Descrição:</th>
+        <td>@Model.Descricao</td>
+    </tr>
+</table>
+
+<a asp-action="Index">Voltar para a Lista</a>
