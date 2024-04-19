@@ -1,3 +1,5 @@
 
 /ConsultasMedicas/bin
 *.dll
+ConsultasMedicas/bin/Debug/net8.0/ConsultasMedicas.dll
+ConsultasMedicas/bin/Debug/net8.0/ConsultasMedicas.exe
