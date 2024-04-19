@@ -1,0 +1,30 @@
+@model ConsultasMedicas.Models.Consulta
+
+<h1>Editar Consulta</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id"/>
+    <div class="form-group">
+        <label>Data:</label>
+        <input asp-for="Data" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Hora:</label>
+        <input asp-for="Hora" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Médico:</label>
+        <input asp-for="Medico" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Paciente</label>
+        <input asp-for="Paciente" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Motivo:</label>
+        <input asp-for="Motivo" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<a asp-action="Index">Cancelar</a>

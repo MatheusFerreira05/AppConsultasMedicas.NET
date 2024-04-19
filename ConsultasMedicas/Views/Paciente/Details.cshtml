@@ -1,0 +1,24 @@
+@model ConsultasMedicas.Models.Paciente
+
+<h1>Detalhes do Paciente</h1>
+
+<table class="table">
+    <tr>
+        <th>Nome:</th>
+        <td>@Model.Nome</td>
+    </tr>
+    <tr>
+        <th>Data de Nascimento:</th>
+        <td>@Model.DataNascimento.ToShortDateString()</td>
+    </tr>
+    <tr>
+        <th>Gênero:</th>
+        <td>@Model.Genero</td>
+    </tr>
+    <tr>
+        <th>Histórico Médico:</th>
+        <td>@Model.HistoricoMedico</td>
+    </tr>
+</table>
+
+<a asp-action="Index">Voltar para a Lista</a>
