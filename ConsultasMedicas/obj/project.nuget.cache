@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GlGtDgokZ/D8lXyLaNtN4Qj6Ld70eEvl2ax+hDPpt/bQeXdZbyQzI6teZOwoDUR6WeZUQJlJOW4/xxk9k6C3bg==",
+  "dgSpecHash": "L5IDCTpGVpoF1RxlMB6t6eNIzjk1EqO+dYkITC1rqkLFNeOe41LK3A/FMMA8YYEL0HyLSsej4iCndCvpoFHGzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\OneDrive\\Estudos\\.Net\\AppConsultasMedicas.NET\\ConsultasMedicas\\ConsultasMedicas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
-    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.4\\microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.0\\microsoft.entityframeworkcore.relational.8.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
