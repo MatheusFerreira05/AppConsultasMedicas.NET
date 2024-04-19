@@ -1,32 +1,31 @@
-using Microsoft.AspNetCore.Mvc;
 using ConsultasMedicas.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 
 namespace ConsultasMedicas.Controllers
 {
-    public class MedicoController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class MedicoController : ControllerBase
     {
         private static List<Medico> medicos = new List<Medico>();
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Get()
         {
-            return View(medicos);
+            return Ok(medicos);
         }
 
-        public IActionResult Details(int id)
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
         {
             Medico medico = medicos.Find(m => m.Id == id);
             if (medico == null)
             {
                 return NotFound();
             }
-            return View(medico);
-        }
-
-        public IActionResult Create()
-        {
-            return View();
+            return Ok(medico);
         }
 
         [HttpPost]
@@ -34,21 +33,11 @@ namespace ConsultasMedicas.Controllers
         {
             medico.Id = medicos.Count + 1;
             medicos.Add(medico);
-            return RedirectToAction("Index");
+            return CreatedAtAction(nameof(GetById), new { id = medico.Id }, medico);
         }
 
-        public IActionResult Edit(int id)
-        {
-            Medico medico = medicos.Find(m => m.Id == id);
-            if (medico == null)
-            {
-                return NotFound();
-            }
-            return View(medico);
-        }
-
-        [HttpPost]
-        public IActionResult Edit(int id, Medico medicoAtualizado)
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, Medico medicoAtualizado)
         {
             Medico medico = medicos.Find(m => m.Id == id);
             if (medico == null)
@@ -58,9 +47,10 @@ namespace ConsultasMedicas.Controllers
             medico.Nome = medicoAtualizado.Nome;
             medico.Especialidade = medicoAtualizado.Especialidade;
             medico.HorarioTrabalho = medicoAtualizado.HorarioTrabalho;
-            return RedirectToAction("Index");
+            return NoContent();
         }
 
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             Medico medico = medicos.Find(m => m.Id == id);
@@ -69,7 +59,7 @@ namespace ConsultasMedicas.Controllers
                 return NotFound();
             }
             medicos.Remove(medico);
-            return RedirectToAction("Index");
+            return NoContent();
         }
     }
 }
